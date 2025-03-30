@@ -5,5 +5,7 @@ string = str(input("Enter string: "))
 # ask the user for the total number of characters
 total_char = int(input("Enter total number of characters: "))
 # subtract the length of the string to the total number of characters to get the zeroes
+zeroes = total_char - len(string)
 # concatenate the zeroes and the string
 # print output
+print(zeroes)
