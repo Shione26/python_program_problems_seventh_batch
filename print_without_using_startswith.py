@@ -5,5 +5,9 @@ text = input("Enter text: ")
 # ask the user the prefix
 prefix = input("Enter prefix: ")
 # check if the prefix is at the beginning
+if text [:len(prefix)] == prefix:
+    print("True")
+else:
+    print("False")
 # if yes, print True
 # if no, print False
