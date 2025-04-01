@@ -9,6 +9,11 @@ position = -1
 # initialize index as 0
 index = 0
 # check each character if it match the character to find
-# if no, increment index variable until character is found
-# if yes, set the position to the current index then break
+for char in text:
+    if char != character:   # if no, increment index variable until character is found
+        index += 1
+    else:
+        position = index    # if yes, set the position to the current index then break
+        break
 # print the position
+print(position)
